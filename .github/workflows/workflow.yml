@@ -1,6 +1,6 @@
 on:
   workflow_dispatch:
-    jobs:
+jobs:
   dispatch:
     name: Workflow dispatch events
     runs-on: ubuntu-latest
