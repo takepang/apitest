@@ -1,7 +1,7 @@
-on: workflow_dispatch
-
-name: Workflow dispatch events
-
+on:
+  repository_dispatch:
+    types:
+      - my-custom-type
 jobs:
   dispatch:
     name: Workflow dispatch events
