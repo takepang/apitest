@@ -1,8 +1,6 @@
 on:
-  repository_dispatch:
-    types:
-      - my-custom-type
-jobs:
+  workflow_dispatch:
+    jobs:
   dispatch:
     name: Workflow dispatch events
     runs-on: ubuntu-latest
